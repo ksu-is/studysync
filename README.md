@@ -1,2 +1,3 @@
 # studysync
 A student study and assignment tracker built in Python.
+By Sequoya Eberhardt
