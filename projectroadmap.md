@@ -29,3 +29,7 @@ College students who want a simple way to manage homework and deadlines.
 - Add due dates
 - Add reminders
 - Improve user interface
+## Related Project Research
+https://github.com/marcosvbras/todo-list-python
+
+This project is similar because it allows users to create and manage tasks. It uses Python to build a simple task tracking system, which relates to my StudySync project.
