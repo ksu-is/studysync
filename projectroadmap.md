@@ -33,3 +33,20 @@ College students who want a simple way to manage homework and deadlines.
 https://github.com/marcosvbras/todo-list-python
 
 This project is similar because it allows users to create and manage tasks. It uses Python to build a simple task tracking system, which relates to my StudySync project.
+## Codebase Evaluation
+
+I explored a Python to-do list project on GitHub.
+
+The project includes features such as adding tasks, deleting tasks, and marking tasks as complete. It uses Python and in some cases frameworks like Flask.
+
+From reviewing the code, I noticed:
+- Functions are used to organize features
+- Lists are used to store tasks
+- Some versions store data in files or databases
+
+This project relates to my idea because StudySync will also track assignments and tasks.
+
+I plan to use similar ideas such as:
+- storing tasks in a list or file
+- using functions to manage tasks
+- creating a simple menu system for user interaction
