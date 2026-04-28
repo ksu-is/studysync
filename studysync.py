@@ -25,3 +25,11 @@ while True:
 
     else:
         print("Invalid choice")
+if choice == "1":
+    task = input("Enter assignment: ").strip()
+
+    if task == "":
+        print("Cannot add empty assignment")
+    else:
+        assignments.append(task)
+        print("Added!")
