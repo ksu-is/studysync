@@ -33,3 +33,15 @@ if choice == "1":
     else:
         assignments.append(task)
         print("Added!")
+if choice == "1":
+    task = input("Enter assignment: ").strip()
+
+    if task == "":
+        print("Cannot add empty assignment")
+
+    elif task in assignments:
+        print("Assignment already exists")
+
+    else:
+        assignments.append(task)
+        print("Added!")
