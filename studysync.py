@@ -1,3 +1,11 @@
+import os
+def save_to_file(assignments):
+    file = open("assignments.txt", "w")
+
+    for item in assignments:
+        file.write(item + "\n")
+
+    file.close()
 print("Welcome to StudySync")
 
 assignments = []
@@ -19,10 +27,10 @@ while True:
         for item in assignments:
             print("-", item)
 
-    elif choice == "3":
-        print("Goodbye")
-        break
-
+   elif choice == "3":
+    save_to_file(assignments)
+    print("Saved. Goodbye")
+    break
     else:
         print("Invalid choice")
 if choice == "1":
