@@ -45,3 +45,8 @@ if choice == "1":
     else:
         assignments.append(task)
         print("Added!")
+elif choice == "2":
+    print("Assignments:")
+
+    for i, item in enumerate(assignments, start=1):
+        print(i, "-", item)
