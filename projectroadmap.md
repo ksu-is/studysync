@@ -50,3 +50,12 @@ I plan to use similar ideas such as:
 - storing tasks in a list or file
 - using functions to manage tasks
 - creating a simple menu system for user interaction
+## Sprint 2 Tasks
+
+- [x] Create main program
+- [x] Add assignment feature
+- [x] Prevent empty input
+- [x] Prevent duplicates
+- [x] Improve display
+- [x] Save assignments to file
+- [x] Load assignments from file
