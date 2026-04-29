@@ -6,9 +6,21 @@ def save_to_file(assignments):
         file.write(item + "\n")
 
     file.close()
+    def load_from_file():
+    assignments = []
+
+    if os.path.exists("assignments.txt"):
+        file = open("assignments.txt", "r")
+
+        for line in file:
+            assignments.append(line.strip())
+
+        file.close()
+
+    return assignments
 print("Welcome to StudySync")
 
-assignments = []
+assignments = load_from_file()
 
 while True:
     print("\n1. Add Assignment")
