@@ -17,6 +17,7 @@ def load_from_file():
 
     return assignments
 
+
 print("Welcome to StudySync")
 
 assignments = load_from_file()
